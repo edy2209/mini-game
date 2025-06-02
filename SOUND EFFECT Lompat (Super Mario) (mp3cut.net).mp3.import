@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bbgwl487mlfv0"
+path="res://.godot/imported/SOUND EFFECT Lompat (Super Mario) (mp3cut.net).mp3-a7faed0b27d14d52960174adef7df532.mp3str"
+
+[deps]
+
+source_file="res://SOUND EFFECT Lompat (Super Mario) (mp3cut.net).mp3"
+dest_files=["res://.godot/imported/SOUND EFFECT Lompat (Super Mario) (mp3cut.net).mp3-a7faed0b27d14d52960174adef7df532.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

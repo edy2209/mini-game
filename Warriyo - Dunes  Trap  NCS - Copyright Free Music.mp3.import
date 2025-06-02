@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://clwqoeotojd1k"
+path="res://.godot/imported/Warriyo - Dunes  Trap  NCS - Copyright Free Music.mp3-85ac07e26716169ebd8a4b49684bd9dc.mp3str"
+
+[deps]
+
+source_file="res://Warriyo - Dunes  Trap  NCS - Copyright Free Music.mp3"
+dest_files=["res://.godot/imported/Warriyo - Dunes  Trap  NCS - Copyright Free Music.mp3-85ac07e26716169ebd8a4b49684bd9dc.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

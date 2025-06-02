@@ -1,0 +1,218 @@
+[gd_scene load_steps=9 format=3 uid="uid://c6i528o11kybh"]
+
+[ext_resource type="Texture2D" uid="uid://c5lsb44leddyq" path="res://Free/Background/Blue.png" id="1_0xm2m"]
+[ext_resource type="Texture2D" uid="uid://q1gttcxbvhxs" path="res://Free/Terrain/Terrain (16x16).png" id="2_h2yge"]
+[ext_resource type="PackedScene" uid="uid://dpl6o6avyi0m8" path="res://scenes/main_charakter.tscn" id="3_h2yge"]
+[ext_resource type="PackedScene" uid="uid://cg4mubr4bvsci" path="res://piala_target.tscn" id="4_1bvp3"]
+[ext_resource type="Script" uid="uid://ckhfcw8pucv13" path="res://piala_target.gd" id="5_lquwl"]
+[ext_resource type="AudioStream" uid="uid://chchnsgbbduya" path="res://Elevator Music (Kevin MacLeod) - Background Music (HD).mp3" id="6_7mycd"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_1bvp3"]
+texture = ExtResource("2_h2yge")
+0:0/0 = 0
+1:0/0 = 0
+2:0/0 = 0
+3:0/0 = 0
+4:0/0 = 0
+6:0/0 = 0
+6:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+7:0/0 = 0
+7:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+8:0/0 = 0
+8:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+9:0/0 = 0
+9:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+10:0/0 = 0
+10:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+12:0/0 = 0
+13:0/0 = 0
+14:0/0 = 0
+15:0/0 = 0
+17:0/0 = 0
+18:0/0 = 0
+19:0/0 = 0
+0:1/0 = 0
+1:1/0 = 0
+2:1/0 = 0
+3:1/0 = 0
+4:1/0 = 0
+6:1/0 = 0
+6:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+7:1/0 = 0
+7:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+8:1/0 = 0
+8:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+9:1/0 = 0
+9:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+10:1/0 = 0
+10:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+12:1/0 = 0
+13:1/0 = 0
+14:1/0 = 0
+15:1/0 = 0
+17:1/0 = 0
+17:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+18:1/0 = 0
+18:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+19:1/0 = 0
+19:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+0:2/0 = 0
+1:2/0 = 0
+2:2/0 = 0
+6:2/0 = 0
+6:2/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+7:2/0 = 0
+7:2/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+8:2/0 = 0
+8:2/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+13:2/0 = 0
+14:2/0 = 0
+15:2/0 = 0
+17:2/0 = 0
+18:2/0 = 0
+19:2/0 = 0
+0:4/0 = 0
+0:4/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+1:4/0 = 0
+1:4/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+2:4/0 = 0
+2:4/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+3:4/0 = 0
+4:4/0 = 0
+6:4/0 = 0
+7:4/0 = 0
+8:4/0 = 0
+9:4/0 = 0
+10:4/0 = 0
+12:4/0 = 0
+13:4/0 = 0
+14:4/0 = 0
+15:4/0 = 0
+17:4/0 = 0
+18:4/0 = 0
+19:4/0 = 0
+20:4/0 = 0
+21:4/0 = 0
+0:5/0 = 0
+0:5/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+1:5/0 = 0
+2:5/0 = 0
+2:5/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+3:5/0 = 0
+4:5/0 = 0
+6:5/0 = 0
+7:5/0 = 0
+8:5/0 = 0
+9:5/0 = 0
+10:5/0 = 0
+12:5/0 = 0
+13:5/0 = 0
+14:5/0 = 0
+15:5/0 = 0
+17:5/0 = 0
+18:5/0 = 0
+19:5/0 = 0
+20:5/0 = 0
+21:5/0 = 0
+0:6/0 = 0
+0:6/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+1:6/0 = 0
+1:6/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+2:6/0 = 0
+2:6/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
+6:6/0 = 0
+7:6/0 = 0
+8:6/0 = 0
+13:6/0 = 0
+14:6/0 = 0
+15:6/0 = 0
+17:6/0 = 0
+18:6/0 = 0
+19:6/0 = 0
+0:8/0 = 0
+1:8/0 = 0
+2:8/0 = 0
+3:8/0 = 0
+4:8/0 = 0
+6:8/0 = 0
+7:8/0 = 0
+8:8/0 = 0
+9:8/0 = 0
+10:8/0 = 0
+12:8/0 = 0
+13:8/0 = 0
+14:8/0 = 0
+15:8/0 = 0
+17:8/0 = 0
+18:8/0 = 0
+19:8/0 = 0
+20:8/0 = 0
+0:9/0 = 0
+1:9/0 = 0
+2:9/0 = 0
+3:9/0 = 0
+4:9/0 = 0
+6:9/0 = 0
+7:9/0 = 0
+8:9/0 = 0
+9:9/0 = 0
+10:9/0 = 0
+12:9/0 = 0
+13:9/0 = 0
+14:9/0 = 0
+15:9/0 = 0
+17:9/0 = 0
+18:9/0 = 0
+19:9/0 = 0
+20:9/0 = 0
+0:10/0 = 0
+1:10/0 = 0
+2:10/0 = 0
+6:10/0 = 0
+7:10/0 = 0
+8:10/0 = 0
+13:10/0 = 0
+14:10/0 = 0
+15:10/0 = 0
+18:10/0 = 0
+19:10/0 = 0
+20:10/0 = 0
+
+[sub_resource type="TileSet" id="TileSet_lquwl"]
+physics_layer_0/collision_layer = 1
+sources/0 = SubResource("TileSetAtlasSource_1bvp3")
+
+[node name="Node" type="Node"]
+
+[node name="TextureRect" type="TextureRect" parent="."]
+texture_filter = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = 4.0
+offset_right = -6.0
+offset_bottom = 20.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_0xm2m")
+stretch_mode = 1
+
+[node name="TileMap" type="TileMap" parent="."]
+texture_filter = 1
+scale = Vector2(3, 3)
+tile_set = SubResource("TileSet_lquwl")
+format = 2
+layer_0/tile_data = PackedInt32Array(786435, 393216, 0, 786436, 393216, 0, 786437, 393216, 0, 786438, 393216, 0, 786439, 393216, 0, 786440, 393216, 0, 786441, 393216, 0, 786442, 393216, 0, 786443, 393216, 0, 786445, 393216, 0, 786444, 393216, 0, 786449, 393216, 0, 786450, 393216, 0, 786451, 393216, 0, 786452, 393216, 0, 786453, 393216, 0, 786454, 393216, 0, 786455, 131072, 5, 589824, 0, 5, 655360, 0, 5, 589825, 458752, 0, 655361, 458752, 1, 589826, 524288, 0, 655362, 524288, 1, 589838, 393216, 0, 655374, 393216, 1, 589839, 458752, 0, 655375, 458752, 1, 589840, 524288, 0, 655376, 524288, 1, 458773, 393216, 0, 524309, 393216, 1, 589845, 393216, 2, 458774, 458752, 0, 524310, 458752, 1, 589846, 458752, 2, 458775, 131072, 5, 524311, 131072, 5, 589847, 131072, 5, 393227, 393216, 0, 458763, 393216, 1, 393228, 458752, 0, 458764, 458752, 1, 393229, 524288, 0, 458765, 524288, 1, 524299, 393216, 1, 524300, 458752, 1, 524301, 524288, 1, 262160, 393216, 0, 262161, 458752, 0, 262162, 524288, 0, 393216, 0, 5, 458752, 0, 5, 393217, 458752, 0, 458753, 458752, 1, 524288, 0, 5, 524289, 458752, 1, 655367, 393216, 0, 655368, 458752, 0, 720896, 0, 5, 720897, 458752, 1, 720898, 524288, 1, 786432, 0, 5, 786433, 458752, 1, 786434, 524288, 1, 720910, 393216, 1, 720911, 458752, 1, 720912, 524288, 1, 786446, 393216, 1, 786447, 458752, 1, 786448, 524288, 1, 262167, 131072, 5, 0, 0, 4, 65536, 0, 5, 131072, 0, 5, 196608, 0, 5, 262144, 0, 5, 327680, 0, 5, 851968, 0, 6, 851969, 458752, 1, 851970, 524288, 1, 851972, 524288, 1, 851971, 393216, 1, 851973, 393216, 1, 851974, 458752, 1, 851975, 393216, 1, 851976, 458752, 1, 851977, 524288, 1, 851978, 393216, 1, 851979, 458752, 1, 851980, 524288, 1, 851981, 393216, 1, 851982, 458752, 1, 851983, 524288, 1, 851984, 393216, 1, 851985, 458752, 1, 851986, 524288, 1, 851987, 393216, 1, 851988, 458752, 1, 851989, 524288, 1, 851990, 393216, 1, 1, 65536, 4, 2, 65536, 4, 3, 65536, 4, 4, 65536, 4, 5, 65536, 4, 6, 65536, 4, 7, 65536, 4, 8, 65536, 4, 9, 65536, 4, 10, 65536, 4, 11, 65536, 4, 13, 65536, 4, 14, 65536, 4, 12, 65536, 4, 15, 65536, 4, 16, 65536, 4, 17, 65536, 4, 18, 65536, 4, 19, 65536, 4, 20, 65536, 4, 21, 65536, 4, 22, 65536, 4, 23, 131072, 4, 65559, 131072, 5, 196631, 131072, 5, 131095, 131072, 5, 327703, 131072, 5, 393239, 131072, 5, 655383, 131072, 5, 720919, 131072, 5, 851991, 131072, 6, 524297, 393216, 0, 524298, 458752, 0, 458757, 393216, 0, 458756, 458752, 0, 327686, 1114112, 1, 327687, 1179648, 1, 327688, 1245184, 1, 262164, 1114112, 1, 262165, 1179648, 1, 262166, 1245184, 1, 655377, 1114112, 1, 524308, 1114112, 1, 524302, 1114112, 1)
+
+[node name="CharacterBody2D" parent="." instance=ExtResource("3_h2yge")]
+position = Vector2(157, 437)
+rotation = 0.00262413
+
+[node name="Area2D" parent="." instance=ExtResource("4_1bvp3")]
+script = ExtResource("5_lquwl")
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("6_7mycd")
+autoplay = true
+
+[connection signal="body_entered" from="Area2D" to="Area2D" method="_on_body_entered"]
