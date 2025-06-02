@@ -4,4 +4,4 @@
 </p>
 
 # PREVIEW TAMPILAN GAME
-![Example Game Mini](/asetgodot/Screenshot%20(320).png)
+![Example Game Mini](/asetgodot/ui%20depan.png)
