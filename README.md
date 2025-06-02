@@ -4,3 +4,4 @@
 </p>
 
 # PREVIEW TAMPILAN GAME
+![Example Game Mini](/rere/Screenshot%20(320).png)
